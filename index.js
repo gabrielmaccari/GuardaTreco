@@ -3,6 +3,7 @@ const { Collection, Client, Events, GatewayIntentBits, MessageFlags } = require(
 const fs = require('node:fs');
 const path = require('node:path');
 const { token } = require('./config.json');
+require("./deploy-commands")
 
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
