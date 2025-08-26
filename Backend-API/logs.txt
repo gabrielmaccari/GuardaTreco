@@ -19,3 +19,4 @@ A conta foi adicionada, com data de vencimento 2025-08-27, com valor 600 com o n
 As contas foram listadas no momento 2025-08-26 14:26:53.420002.
 As contas foram somadas no momento 2025-08-26 14:27:03.333142.
 A conta com nome Luz foi excluída no momento 2025-08-26 14:27:31.570820.
+As contas foram somadas no momento 2025-08-26 15:14:33.131011.
