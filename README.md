@@ -90,13 +90,8 @@ First, I learned how to create a bot in Discord and how it worked. I used the Di
 
 ![App Screenshot](Screenshot/{271CDE7A-A069-46DB-AC1F-1AAE2DF94C16}.png)
 
-#### 🌐❤ Networks Gabriel:
-
-[<img alt="Instagram Gabriel" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=instagram.com/gabrielmaccarii/" height="22" />][instagram-ga]
-[<img alt="Mail to Gabriel" src="https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white" height="22" title="gabrielmaccari5@gmail.com" />][email-ga]
-[<img alt="Linkedin Gabriel" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[https://www.linkedin.com/in/gabriel-santana-silva/](https://www.linkedin.com/in/gabrielmaccari/)" height="22" />][linkedin-ga]
 
 ## 👨‍💻 Team
 
-* **Gabriel Santana Silva** - *Owner* - [Instagram](https://www.instagram.com/gabrielmaccarii/)
+* **Gabriel Maccari** - *Owner* - [Instagram](https://www.instagram.com/gabrielmaccarii/)
 
