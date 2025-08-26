@@ -1,0 +1,21 @@
+
+As contas foram listadas no momento $2025-08-26 12:34:27.668294.
+As contas foram listadas no momento $2025-08-26 12:35:15.490042.
+A conta foi adicionada, com data de vencimento 29/05/2026, com valor 200 com o nome de Luz no momento 2025-08-26 12:42:17.663316.
+As contas foram listadas no momento 2025-08-26 12:42:34.551036.
+A conta foi adicionada, com data de vencimento 02/12/2027, com valor 300 com o nome de Energia no momento 2025-08-26 12:43:03.596328.
+As contas foram listadas no momento 2025-08-26 12:43:11.257368.
+As contas foram listadas no momento 2025-08-26 14:04:44.638607.
+As contas foram listadas no momento 2025-08-26 14:11:03.351860.
+A conta foi adicionada, com data de vencimento 2025-12-24, com valor 120 com o nome de Internet no momento 2025-08-26 14:18:07.381080.
+As contas foram listadas no momento 2025-08-26 14:18:54.283534.
+A conta com nome Internet foi excluída no momento 2025-08-26 14:23:28.826949.
+As contas foram listadas no momento 2025-08-26 14:24:03.946185.
+As contas foram somadas no momento 2025-08-26 14:24:09.855812.
+A conta foi adicionada, com data de vencimento 2025-12-12, com valor 230 com o nome de Internet no momento 2025-08-26 14:24:23.074967.
+As contas foram listadas no momento 2025-08-26 14:24:31.023450.
+As contas foram somadas no momento 2025-08-26 14:24:37.019514.
+A conta foi adicionada, com data de vencimento 2025-08-27, com valor 600 com o nome de Medico no momento 2025-08-26 14:25:32.463412.
+As contas foram listadas no momento 2025-08-26 14:26:53.420002.
+As contas foram somadas no momento 2025-08-26 14:27:03.333142.
+A conta com nome Luz foi excluída no momento 2025-08-26 14:27:31.570820.

@@ -5,6 +5,8 @@ const path = require('node:path');
 const { token } = require('./config.json');
 require("./deploy-commands")
 
+
+
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -14,6 +16,7 @@ const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.once(Events.ClientReady, readyClient => {
 	console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
+
 
 // Log in to Discord with your client's token
 client.login(token);
@@ -38,6 +41,16 @@ for (const folder of commandFolders) {
 		}
 	}
 }
+        function getNextSequence(name) {
+          var ret = db.counters.findAndModify(
+            {
+              query: { id: name },
+              update: { $inc: { seq: 1 } },
+              new: true
+            }
+          );
+          return ret.seq;
+        }
 client.on(Events.InteractionCreate, async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
