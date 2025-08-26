@@ -1,72 +1,87 @@
 
-# GuardaTreco
+<p align="center">
+  <h1 align="center">GuardaTreco | NodeJS & Discord.js :rocket:</h1>
+</p>
 
-O GuardaTreco é um bot do Discord, que pode armazenar e fazer muitas coisas. Possui calculadora, conversor de moedas e sua grande especifidade é ser um gerenciador de contas e boletos. 
-
-
-## Funcionalidades
-
-- Cadastro de contas (CRD)
-- Lembrete de pagamento
-- Calculadora
-- Soma de valores de contas
+## 💻 About
 
 
-## Aprendizados
+<div>
 
-Primeiro aprendi a como Criar um Bot no Discord e como que ele funcionava. Usei a biblioteca Discord.js e comecei a fazer comandos somente para entender como funcionava. Depois pensei qual seria a melhor forma de guardar estes dados, sei que queria um não relacional por ter maior liberdade para guardar quaisquer dados, escolhi o MongoDB, utilizei a forma grátis dele. Depois pensei em como criar a API, decidi usar uma biblioteca que ja estou acostumado que é a FastAPI. Um diferencial desse projeto é que eu tentei não usar IA de forma alguma, para eu aprender a ler documentações e ir atrás das soluções. Pedia para IA orientações de como eu poderia fazer tal coisa, e não a coisa diretamente. 
+GuardaTreco is a bot of Discord. It is able to do Account Management, like electricity bill, internet bill or girlfriend costs. It can store your costs very fast and more simple, because it's a Bot, with technologies.
+ 
+
+</div>
+
+## 🎧 Features:
+
+* Costs register (CRD)
+* Payment reminder 
+* Calculator
+* Sum of account values
+* Focus on high performance
+
+  
+## ✅ Requirements:
+
+* **[Discord.js](https://discord.js.org/#/)**
+* **[Node.js](https://nodejs.org/en/)**
 
 
-## Documentação da API
+## ✅ How I did it?
+First, I learned how to create a bot in Discord and how it worked. I used the Discord.js library and started creating commands just to understand how it worked. Then I considered the best way to store this data. I knew I wanted a non-relational one because it gave me greater freedom to store any data. I chose MongoDB, using its free version. Then I thought about how to create the API and decided to use a library I'm already familiar with, FastAPI. What sets this project apart is that I tried not to use AI at all, so I could learn to read documentation and pursue solutions. I asked the AI ​​for guidance on how to do something, rather than the actual thing.
 
-#### Cria uma conta
+
+## 🐋 API Documentation
+
+#### Create billing account
 
 ```http
   POST /contas
 ```
 
-| Parâmetro   | Tipo       | Descrição                           |
+| Parameter   | Type       | Description                           |
 | :---------- | :--------- | :---------------------------------- |
-| `valor, data, nome` | `int, string, string` | **Obrigatório**. São os dados da sua conta |
+| `valor, data, nome` | `int, string, string` | **Mandatory**. Your data bill |
 
-#### Listar contas
+#### List accounts
 
 ```http
   GET /contas
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `sem parâmetro`      | `` | **Obrigatório**. Não precisa de parâmetro, apenas dar o comando |
+| `sem parâmetro`      | `` | **Mandatory**. Don't need parameter |
 
-#### Deletar contas
+#### Delete bills
 
 ```http
   DELETE /contas
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `nome`      | `string` | **Obrigatório**. Nome da conta a ser deletada |
+| `nome`      | `string` | **Mandatory**. Don't need parameter |
 
-#### Totalizar valores
+#### Total values
 
 ```http
   GET /total
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| ``      | `string` | **Obrigatório**.  |Não precisa de parâmetro, apenas dar o comando
+| ``      | `string` |**Mandatory**. Don't need parameter|
 
-#### Contas que vencem amanhã
+#### Bills due tomorrow
 ```http
   GET /vencem_amanha
 ```
 
-| Parâmetro   | Tipo       | Descrição                                   |
+| Parameter   | Type       | Description                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| ``      | `string` | **Obrigatório**.  |Não precisa de parâmetro, apenas dar o comando
+| ``      | `string` | **Mandatory**. Don't need parameter |
 
 
 
@@ -74,4 +89,14 @@ Primeiro aprendi a como Criar um Bot no Discord e como que ele funcionava. Usei 
 ## Screenshots
 
 ![App Screenshot](Screenshot/{271CDE7A-A069-46DB-AC1F-1AAE2DF94C16}.png)
+
+#### 🌐❤ Networks Gabriel:
+
+[<img alt="Instagram Gabriel" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&link=instagram.com/gabrielmaccarii/" height="22" />][instagram-ga]
+[<img alt="Mail to Gabriel" src="https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white" height="22" title="gabrielmaccari5@gmail.com" />][email-ga]
+[<img alt="Linkedin Gabriel" src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=[https://www.linkedin.com/in/gabriel-santana-silva/](https://www.linkedin.com/in/gabrielmaccari/)" height="22" />][linkedin-ga]
+
+## 👨‍💻 Team
+
+* **Gabriel Santana Silva** - *Owner* - [Instagram](https://www.instagram.com/gabrielmaccarii/)
 
